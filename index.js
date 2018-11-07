@@ -3,7 +3,7 @@
 let TelegramBot = require('./node_modules/node-telegram-bot-api');
 
 // Устанавливаем токен, который выдавал нам бот.
-let token = '775038949:AAFmuDD0ALsBz1Nug8t1A776lpW8teyxl-E';
+let token = 'https://api.telegram.org/bot775038949:AAFmuDD0ALsBz1Nug8t1A776lpW8teyxl-E/getMe';
 // Включить опрос сервера
 let bot = new TelegramBot(token, {polling: true});
 
